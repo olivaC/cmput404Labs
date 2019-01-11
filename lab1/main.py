@@ -5,8 +5,10 @@
 import requests
 
 # print(requests.__version__)
-request = requests.get("http://www.google.com")
+request = requests.get("https://raw.githubusercontent.com/olivaC/cmput404Labs/master/lab1/main.py")
 
-print(dir(request))
-print(request.status_code)
-# print(request.text)
+# print(request)
+# print(dir(request))
+# print(request.status_code)
+print(request.text)
+
